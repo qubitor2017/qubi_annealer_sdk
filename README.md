@@ -8,7 +8,7 @@ The SDK lets developers construct supported binary optimisation models, represen
 
 ## What's included
 
-- Python package `qubitor`.
+- Python package `qubitor`
 - Binary model builder for linear and quadratic objectives and equality constraints.
 - QUBO and Ising model representations and conversion.
 - PUBO representation with host-side Rosenberg quadratization to QUBO.
