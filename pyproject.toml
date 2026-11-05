@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qubitor-sdk"
+version = "2.0.0"
+description = "Qubitor SDK and industry example library for QUBO, PUBO and Ising optimization"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "Proprietary - Qubitor Labs"}
+authors = [{name = "Qubitor Labs"}]
+keywords = ["qubo", "pubo", "ising", "fpga", "annealing", "optimization"]
+dependencies = []
+
+[project.optional-dependencies]
+serial = ["pyserial>=3.5"]
+test = []
+
+[project.urls]
+Homepage = "https://www.qubitor.com"
+Repository = "https://github.com/qubitor2017/qubitor-sdk"
+Documentation = "https://www.qubitor.com/download.html"
+
+[tool.setuptools]
+py-modules = ["qubif_sdk"]
+
+[tool.setuptools.packages.find]
+include = ["qubitor*"]

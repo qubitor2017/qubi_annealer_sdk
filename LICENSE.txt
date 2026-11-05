@@ -1,0 +1,13 @@
+QUBITOR SDK — PROPRIETARY SOURCE-AVAILABLE SOFTWARE
+
+Copyright (c) 2026 Qubitor Labs. All rights reserved.
+
+This repository makes the SDK source code publicly viewable for evaluation,
+integration and development under terms separately authorised by Qubitor Labs.
+No open-source licence is granted by this notice. No right to redistribute,
+sublicense, publish modified copies, or use commercially is granted except as
+expressly provided in a written licence or SDK agreement from Qubitor Labs.
+
+Before public GitHub release or customer distribution, Qubitor Labs should
+replace or supplement this notice with its approved SDK licence/EULA. This
+notice is not legal advice.
